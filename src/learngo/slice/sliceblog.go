@@ -29,12 +29,10 @@ func main() {
 	fmt.Printf("The len of s1: %d\n", len(s3))  // 输出 The len of s1: 1024
 	fmt.Printf("The cap of s1: %d\n", cap(s3))  // 输出 The cap of s1: 1024
 
-
 	s3 = append(s3, 1, 2)
 
 	fmt.Printf("The len of s1: %d\n", len(s3))  // 输出 The len of s1: 1026
 	fmt.Printf("The cap of s1: %d\n", cap(s3))  // 输出 The cap of s1: 1280
-
 
 	s2 := make([]int, 3, 6)
 	fmt.Printf("The len of s2: %d\n", len(s2)) // 输出 The len of s2: 3
