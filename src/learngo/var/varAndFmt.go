@@ -10,7 +10,6 @@ func varZeroValue()  {
 	var str string
 	var  d , e float32
 	b, c := 3, true // 定义变量的时候赋初始值
-
 	fmt.Println(a, str, d, e,  b, c) // 0  0 0 3 true
 }
 
