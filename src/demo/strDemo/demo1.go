@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
-	$END$
+	fmt.Println(float64(3/2))
 }
