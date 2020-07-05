@@ -6,7 +6,6 @@ import (
 )
 
 func main() {
-	var a [10]int
 	for i := 0;i < 1000; i++ {
 		go func(i int) {
 			for {
@@ -16,6 +15,5 @@ func main() {
 	}
 
 	time.Sleep(time.Minute)
-	fmt.Println(a)
 }
 

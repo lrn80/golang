@@ -3,7 +3,11 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="ed5f0e81-52ae-4911-85fb-9d7dc727ce8d" name="golang" url="http://xy.iruoning.cn">
+<<<<<<< HEAD
         <fileTransfer rootFolder="/root/wwwroot/" accessType="SFTP" host="47.106.252.126" port="22" sshConfigId="62a52e29-d445-4e54-adae-238b599938c4" sshConfig="root@47.106.252.126:22 password">
+=======
+        <fileTransfer rootFolder="/root/wwwroot/learngo/golang" accessType="SFTP" host="47.106.252.126" port="22" sshConfigId="62a52e29-d445-4e54-adae-238b599938c4" sshConfig="root@47.106.252.126:22 password">
+>>>>>>> feature/local-home
           <advancedOptions>
             <advancedOptions controlEncoding="UTF-8" dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
